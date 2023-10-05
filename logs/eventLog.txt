@@ -112,3 +112,7 @@
 05102023	10:02:43	8b81e221-3775-417f-b41b-7f2b23979abe	POST	undefined	/employees
 05102023	10:02:43	3964f429-bc13-4f33-a7c4-521b4c54188e	POST	undefined	/employees
 05102023	10:02:47	c8958f3a-b882-43ee-ba3f-41158b97d075	PUT	undefined	/employees
+05102023	11:03:24	4d571e4c-4a1c-45bc-9c30-ee4971970543	PUT	undefined	/employees
+05102023	11:03:29	48de35b2-d74c-46c9-b66a-5d0532a1ab66	GET	undefined	/employees
+05102023	11:03:36	e9dbaaf7-bef0-40ed-a1fe-f46d43fc238b	POST	undefined	/employees
+05102023	11:03:40	214f7c7d-9d1b-4f54-92ce-43f2484a44e1	GET	undefined	/employees

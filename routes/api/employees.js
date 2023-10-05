@@ -7,10 +7,10 @@ const employeesController = require("../../controllers/employeesController");
 
 router
   .route("/")
-  .get(getAllEmployees)
-  .post(createEmployee)
-  .put(updateEmployee)
-  .delete(terminateEmployee)
-  .get(getSingleEmployee);
+  .get(employeesController.getAllEmployees)
+  .post(employeesController.createEmployee)
+  .put(employeesController.updateEmployee)
+  .delete(employeesController.terminateEmployee)
+  .get(employeesController.getSingleEmployee);
 
 module.exports = router;
