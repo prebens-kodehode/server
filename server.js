@@ -8,17 +8,7 @@ const cors = require("cors");
 const { logger } = require("./middleware/logEvents");
 const errorHandler = require("./middleware/errorHandler");
 
-const whitelist = ["http://localhost:3500", "http://127.0.0.1:5500"];
-const corsOptions = {
-  origin: (origin, callback) => {
-    if (whitelist.indexOf(origin) !== -1 || !origin) {
-      callback(null, true);
-    } else {
-      callback(new Error("Blocked by CORS"));
-    }
-  },
-  optionsSuccessStatus: 200,
-};
+const corsOptions = require("./config/corsOptions");
 
 app.use(logger);
 app.use(cors(corsOptions));
@@ -30,10 +20,12 @@ app.use(errorHandler);
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 
+//routes
 app.use(express.static(path.join(__dirname, "/public")));
-app.use("/subdir", require("./routes/subdir"));
+// app.use("/subdir", require("./routes/subdir"));
 app.use("/", require("./routes/root"));
 app.use("/employees", require("./routes/api/employees"));
+app.use("/register", require("./routes/register"));
 
 app.all("*", (req, res) => {
   res.status(404);

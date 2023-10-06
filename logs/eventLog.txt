@@ -116,3 +116,10 @@
 05102023	11:03:29	48de35b2-d74c-46c9-b66a-5d0532a1ab66	GET	undefined	/employees
 05102023	11:03:36	e9dbaaf7-bef0-40ed-a1fe-f46d43fc238b	POST	undefined	/employees
 05102023	11:03:40	214f7c7d-9d1b-4f54-92ce-43f2484a44e1	GET	undefined	/employees
+06102023	09:52:05	e2438a34-0c66-42ca-83c3-72a02a51046f	POST	undefined	/register
+06102023	09:53:44	4ab965af-4678-4248-a1aa-8711df57b77c	POST	undefined	/register
+06102023	10:00:19	ce27915c-ae3d-423d-aeec-6529b1725ea8	POST	undefined	/register
+06102023	10:00:22	12c61c49-7a06-4cf7-8c94-9853789a41b9	POST	undefined	/register
+06102023	10:04:40	96da7843-033d-4ea5-a3b5-163c1f247a72	POST	undefined	/register
+06102023	10:04:43	ba989948-9ade-4784-85d1-b77b7dd242c7	POST	undefined	/register
+06102023	10:04:44	328a4b8b-94f1-4d45-bee1-f53d36594a6c	POST	undefined	/register
