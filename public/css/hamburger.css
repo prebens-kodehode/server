@@ -1,0 +1,184 @@
+#hamburger {
+  position: fixed;
+  top: 0;
+  right: 5%;
+  z-index: 9999;
+  filter: drop-shadow(0.2rem 0.2rem 0.5rem rgba(0, 0, 0, 0.7));
+  width: 5rem;
+  height: 5rem;
+  transition: all 200ms;
+}
+
+#hamburger:hover {
+  filter: drop-shadow(0 0 0.5rem hsl(0, 0%, 100%));
+  cursor: pointer;
+}
+
+#hamburger:active {
+  filter: drop-shadow(0 0 1rem hsl(0, 0%, 100%));
+}
+
+.hamburger-closed {
+  animation: grow 550ms forwards ease-out;
+}
+.hamburger-open {
+  animation: shrink 550ms forwards ease-out;
+}
+
+.pathA-start {
+  stroke-dasharray: 400 5000;
+  stroke-dashoffset: 5400;
+}
+.pathB-start {
+  stroke-dasharray: 400 5000;
+  stroke-dashoffset: 5400;
+}
+.pathC-start {
+  stroke-dasharray: 400 5000;
+  stroke-dashoffset: 5400;
+}
+
+.pathA-to-open {
+  stroke-dasharray: 400 5000;
+  stroke-dashoffset: 5400;
+  animation: animate-pathA-to-open 500ms forwards ease-in-out;
+}
+.pathB-to-open {
+  stroke-dasharray: 400 5000;
+  stroke-dashoffset: 5400;
+  animation: animate-pathB-to-open 250ms forwards ease-in-out;
+}
+.pathC-to-open {
+  stroke-dasharray: 400 5000;
+  stroke-dashoffset: 5400;
+  animation: animate-pathC-to-open 500ms forwards ease-in-out;
+}
+
+.pathA-to-closed {
+  stroke-dasharray: 600 4700;
+  stroke-dashoffset: 3130;
+  animation: animate-pathA-to-closed 500ms forwards ease-in-out;
+}
+.pathB-to-closed {
+  stroke-dasharray: 3300 5000;
+  stroke-dashoffset: 7600;
+  animation: animate-pathB-to-closed 250ms forwards ease-in-out;
+}
+.pathC-to-closed {
+  stroke-dasharray: 600 4700;
+  stroke-dashoffset: 2535;
+  animation: animate-pathC-to-closed 500ms forwards ease-in-out;
+}
+
+@keyframes animate-pathA-to-open {
+  20% {
+    stroke-dasharray: 400 5000;
+    stroke-dashoffset: 5400;
+  }
+  50% {
+    stroke-width: 60;
+  }
+  100% {
+    stroke-width: 100;
+    stroke-dasharray: 600 4700;
+    stroke-dashoffset: 3130;
+  }
+}
+@keyframes animate-pathB-to-open {
+  to {
+    stroke-dasharray: 3300 5000;
+    stroke-dashoffset: 7600;
+    stroke-linecap: butt;
+  }
+  50% {
+    stroke-width: 60;
+  }
+  100% {
+    stroke-width: 70;
+  }
+}
+
+@keyframes animate-pathC-to-open {
+  20% {
+    stroke-dasharray: 400 5000;
+    stroke-dashoffset: 5400;
+  }
+
+  50% {
+    stroke-width: 60;
+  }
+  100% {
+    stroke-width: 100;
+    stroke-dasharray: 600 4700;
+    stroke-dashoffset: 2535;
+  }
+}
+
+@keyframes animate-pathA-to-closed {
+  to {
+    stroke-dasharray: 400 5000;
+    stroke-dashoffset: 5400;
+  }
+  50% {
+    stroke-width: 60;
+  }
+  100% {
+    stroke-width: 50;
+  }
+}
+@keyframes animate-pathB-to-closed {
+  to {
+    stroke-dasharray: 400 5000;
+    stroke-dashoffset: 5400;
+    stroke-linecap: round;
+  }
+  50% {
+    stroke-width: 70;
+  }
+  100% {
+    stroke-width: 50;
+  }
+}
+
+@keyframes animate-pathC-to-closed {
+  to {
+    stroke-dasharray: 400 5000;
+    stroke-dashoffset: 5400;
+  }
+  50% {
+    stroke-width: 60;
+  }
+  100% {
+    stroke-width: 50;
+  }
+}
+
+@keyframes shrink {
+  0% {
+    transform: scale(1);
+  }
+  80% {
+    transform: scale(0.5);
+  }
+  90% {
+    transform: scale(0.6);
+  }
+  100% {
+    transform: scale(0.5);
+  }
+}
+
+@keyframes grow {
+  0% {
+    transform: scale(0.5);
+  }
+  80% {
+    transform: scale(0.9);
+  }
+  90% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

@@ -1,0 +1,33 @@
+#project-cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin: 5rem 1rem;
+}
+
+.card {
+  /* padding: 0.5rem; */
+  width: 18rem;
+  background: radial-gradient(hsl(0, 0%, 38%), hsl(0, 0%, 27%));
+  border-radius: 0.5rem;
+  padding-bottom: 0.5rem;
+  box-shadow: 0.2rem 0.2rem 0.7rem 0.1rem #000000dc;
+}
+
+.card > img {
+  width: 18rem;
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.card-desc {
+  margin: 1rem;
+  font-size: 0.8rem;
+}
+
+@media only screen and (min-width: 1000px) {
+  #project-cards {
+    flex-direction: row;
+  }
+}
