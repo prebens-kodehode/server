@@ -300,3 +300,17 @@
 16102023	05:46:02	283639d8-a423-42a0-bb4e-6e043cb7118a	GET	undefined	/img/svg/waves.svg
 16102023	05:46:02	c782339a-a727-4e00-8047-811dd11c086a	GET	undefined	/img/svg/hamburger_menu.svg
 16102023	05:46:02	f3838c5d-9de8-46bc-83d7-b524b8322612	GET	undefined	/img/svg/my_name.svg
+16102023	09:30:13	c4e2d9de-0d10-4b42-8880-0b6bbb8f1201	GET	undefined	/
+16102023	09:30:13	8d5d059b-8394-409d-bdc5-819a71c130d6	GET	undefined	/css/projects.css
+16102023	09:30:13	01e3414a-d2a6-4261-bf6d-1cde00c31742	GET	undefined	/css/style.css
+16102023	09:30:13	d6a780fc-d930-433a-939a-80852955e107	GET	undefined	/css/header.css
+16102023	09:30:13	e3839fb2-57e6-4e8e-87bf-292667bec151	GET	undefined	/css/hamburger.css
+16102023	09:30:13	8443d418-ac21-4542-a4c1-0ac6d7019266	GET	undefined	/css/contact.css
+16102023	09:30:13	53670c33-8e34-4031-aa8a-8465df6ba56e	GET	http://localhost:3500	/script/script.js
+16102023	09:30:13	08d91c70-1671-4758-93c7-d9cc3b4c0c3f	GET	undefined	/img/svg/logo.svg
+16102023	09:30:13	e7159b43-f84e-4a79-8c7b-01d126ee5302	GET	undefined	/img/webp/pokemon.webp
+16102023	09:30:13	c91d4e9d-6849-4fb4-8297-2e1be1d6b4c4	GET	undefined	/img/svg/waves.svg
+16102023	09:30:13	c025996c-53d4-4b68-956e-dafc9c1833bd	GET	http://localhost:3500	/script/functions.js
+16102023	09:30:13	28dec9d1-8ea5-4c1b-b61b-24c1bae7be98	GET	undefined	/img/svg/hamburger_menu.svg
+16102023	09:30:13	b37561d8-754c-47df-97ef-99461ae59f09	GET	undefined	/img/svg/my_name.svg
+16102023	09:30:14	1beefc09-ddb9-4108-a0d5-849eee0e7a3b	GET	undefined	/favicon.ico

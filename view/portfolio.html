@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/hamburger.css" />
+    <link rel="stylesheet" href="css/projects.css" />
+    <link rel="stylesheet" href="css/contact.css" />
+    <script src="script/script.js" type="module" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div id="logo-wrapper">
+        <p>PREBEN</p>
+        <img id="logo" src="img/svg/logo.svg" alt="logo" />
+        <p>SØRENSEN</p>
+      </div>
+
+      <div class="menu-wrapper">
+        <button id="ham-menu"></button>
+        <nav>
+          <ul>
+            <li class="menu-link link-start-pos">
+              <button class="menu-link-btn" data-section="home">Hjem</button>
+            </li>
+            <li class="menu-link link-start-pos">
+              <button class="menu-link-btn" data-section="about">Om meg</button>
+            </li>
+            <li class="menu-link link-start-pos">
+              <button class="menu-link-btn" data-section="projects">
+                Prosjekter
+              </button>
+            </li>
+            <li class="menu-link link-start-pos">
+              <button class="menu-link-btn" data-section="contact">
+                Kontakt meg
+              </button>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="home">
+        <div id="my-name"></div>
+        <h3 class="delayed-slide">Frontend-utvikler | Designer</h3>
+      </section>
+      <section id="about">
+        <article>
+          <h2 class="slide">Om meg</h2>
+          <p class="slide">Hei! Jeg heter Preben.</p>
+          <p class="slide">
+            Nylig fullførte jeg et seks måneders frontend-kurs gjennom Kodehode.
+            Med kunnskap i blandt annet CSS, JavaScript, React og Figma, søker
+            jeg nå et internship for å anvende mine ferdigheter.
+          </p>
+          <p class="slide">
+            Jeg er en kreativ og løsningsorientert person som liker å forvandle
+            ideer til virkelighet.
+          </p>
+          <p class="slide">
+            Når jeg ikke koder nyter jeg tid med venner og familie, lærer meg
+            noe nytt og spennende, spiller dataspill og lager smakfulle retter
+            på kjøkkenet.
+          </p>
+          <p class="slide">
+            Med stor entusiasme ser jeg mot min fremtid som frontend-utvikler,
+            og håper å bli en del av et team med samme lidenskap og engasjement.
+          </p>
+        </article>
+      </section>
+      <section id="projects">
+        <h2 class="slide">Prosjekter</h2>
+        <div id="project-cards">
+          <article class="slide card">
+            <img src="img/webp/pokemon.webp" alt="Pokedex Website" />
+            <div class="card-desc">
+              <h3>Placeholder</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Mollitia tenetur ducimus corporis debitis explicabo aspernatur
+                deleniti atque modi, suscipit commodi repellat aut porro culpa
+                necessitatibus voluptate soluta tempora consequatur!
+                Voluptatibus.
+              </p>
+            </div>
+          </article>
+          <article class="slide card">
+            <img src="img/webp/pokemon.webp" alt="Pokedex Website" />
+            <div class="card-desc">
+              <h3>Placeholder</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Mollitia tenetur ducimus corporis debitis explicabo aspernatur
+                deleniti atque modi, suscipit commodi repellat aut porro culpa
+                necessitatibus voluptate soluta tempora consequatur!
+                Voluptatibus.
+              </p>
+            </div>
+          </article>
+          <article class="slide card">
+            <img src="img/webp/pokemon.webp" alt="Pokedex Website" />
+            <div class="card-desc">
+              <h3>Placeholder</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Mollitia tenetur ducimus corporis debitis explicabo aspernatur
+                deleniti atque modi, suscipit commodi repellat aut porro culpa
+                necessitatibus voluptate soluta tempora consequatur!
+                Voluptatibus.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section id="contact">
+        <div class="contact-form-container">
+          <h2 class="slide">Kontakt meg</h2>
+          <form
+            target="_blank"
+            action="https://formsubmit.co/5f7c6bb458b87686653e3777340de789"
+            method="POST"
+          >
+            <div class="form-group">
+              <div class="form-row">
+                <div class="slide col">
+                  <input
+                    type="text"
+                    name="name"
+                    class="form-input form-name"
+                    placeholder="Fullt Navn"
+                    required
+                  />
+                </div>
+                <div class="slide col">
+                  <input
+                    type="email"
+                    name="email"
+                    class="form-input form-email"
+                    placeholder="E-post"
+                    required
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="slide form-group">
+              <textarea
+                placeholder="Din melding..."
+                class="form-input form-message"
+                name="message"
+                rows="10"
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="slide form-btn">Send Melding</button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer><p>By Preben</p></footer>
+  </body>
+</html>
