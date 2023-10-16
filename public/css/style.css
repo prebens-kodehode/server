@@ -12,7 +12,7 @@ body {
   color: #e2e2e2;
   -webkit-font-smoothing: antialiased;
   text-shadow: 0.15rem 0.15rem 0.25rem hsla(0, 0%, 0%, 0.85);
-  background-image: url("../Images/svg/waves.svg");
+  background-image: url("../img/svg/waves.svg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;

@@ -10,14 +10,14 @@ let hamburger = null;
 const myName = document.querySelector("#my-name");
 const slideElements = document.querySelectorAll(".slide");
 
-appendSVG(menuBtn, "../img/svg/hamburger_menu.svg").then(() => {
+appendSVG(menuBtn, "img/svg/hamburger_menu.svg").then(() => {
   pathA = document.querySelector("#pathA");
   pathB = document.querySelector("#pathB");
   pathC = document.querySelector("#pathC");
   hamburger = document.querySelector("#hamburger");
 });
 
-appendSVG(myName, "../img/svg/my_name.svg").then(() => {
+appendSVG(myName, "img/svg/my_name.svg").then(() => {
   window.scrollTo(0, 0);
 });
 
