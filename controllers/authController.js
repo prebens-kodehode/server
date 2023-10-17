@@ -6,6 +6,11 @@ const usersDB = {
 };
 
 const bcrypt = require("bcrypt");
+const jwt = require("jsonwebtoken");
+const fsPromises = require("fs").promises;
+const path = require("path");
+
+require("dotenv").config();
 
 // prettier-ignore
 const handleLogin = async (req, res) => {
@@ -21,7 +26,33 @@ const handleLogin = async (req, res) => {
 
   // prettier-ignore
   if (match) {
+    const accessToken = jwt.sign
+    (
+      {"username": foundUser.username},
+      process.env.ACCESS_TOKEN_SECRET,
+      {expiresIn: "30s"}
+    );
+
+    const refreshToken = jwt.sign
+    (
+      {"username": foundUser.username},
+      process.env.ACCESS_TOKEN_SECRET,
+      {expiresIn: "1d"}
+    );
     res.json({ "success": `User ${user} logged in` });
+
+    const otherUsers = usersDB.users.filter(person => person.username !== foundUser.username);
+    const currentUser = {...foundUser, refreshToken};
+    usersDB.setUsers([...otherUsers, currentUser]);
+    await fsPromises.writeFile
+    (
+      path.join(__dirname, "..", "model", "users.json"),
+      JSON.stringify(usersDB.users)
+    );
+
+    res.json({accessToken});
+    res.cookie("jwt", refreshToken, {http: })
+
   } else {
     res.sendStatus(401);
   }
