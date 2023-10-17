@@ -329,3 +329,7 @@
 16102023	09:34:51	da69ba3c-e64f-4bcf-9344-1f04c5582e25	GET	http://localhost:3500	/script/functions.js
 16102023	09:34:51	42408bfa-9526-4150-9b7d-fde764d65237	GET	undefined	/img/svg/hamburger_menu.svg
 16102023	09:34:51	e4d96ce9-e69a-4789-9234-7d1d43cb8fc3	GET	undefined	/img/svg/my_name.svg
+17102023	09:49:03	623cc1f3-67af-48aa-a99f-0858d7485335	POST	undefined	/auth
+17102023	09:50:20	82edd760-e701-4ecb-9468-a17dfb6d4e3f	POST	undefined	/auth
+17102023	09:51:04	3940c7b2-a712-4ea4-a55c-1a1a4d91473d	POST	undefined	/register
+17102023	09:51:11	e3f47128-a05f-4f7b-8d67-5cf9ab95535c	POST	undefined	/auth
