@@ -379,3 +379,17 @@
 19102023	08:52:16	77c2f27a-d1c6-49f3-9ed7-93ccc4ed6993	POST	undefined	/
 19102023	08:52:20	4d593913-8e79-4c3e-8cc8-c91d1ef2a5fd	POST	undefined	/auth
 19102023	08:52:27	f53acb26-a3f7-4e2d-91ef-d6ad64d186b5	GET	undefined	/refresh
+20102023	09:24:48	787c5f50-bb84-422b-a413-45ea01961d78	POST	undefined	/register
+20102023	09:33:56	f0e4bd50-b3a2-4ffc-b53e-ec5531d71ae6	POST	undefined	/register
+20102023	09:34:06	eaf711c7-a21d-4ae2-9e1c-eb997b1041ea	POST	undefined	/register
+20102023	09:56:25	97f429ce-3be3-49fe-9bd0-2bc0eee9eb95	POST	undefined	/register
+20102023	09:58:31	38ec88cc-760d-49da-aae1-1fae724699ad	POST	undefined	/auth
+20102023	10:00:16	4f218ad6-5242-47bd-b593-37a7dddc3057	POST	undefined	/register
+20102023	10:00:24	72c9e38c-6795-40d8-b206-e374d7e1a921	POST	undefined	/auth
+20102023	10:01:25	00e7550a-0c36-4174-b1f1-4f10efd336fb	POST	undefined	/register
+20102023	10:01:32	ae59d6e8-d7a2-473e-abaf-4fb5dbe489d8	POST	undefined	/auth
+20102023	10:02:40	169b37e1-a4a0-4068-b1a6-6ff598ca191a	GET	undefined	/auth
+20102023	10:02:43	d8883e2e-596d-411f-bfc7-2efb425febdb	GET	undefined	/auth
+20102023	10:02:47	a25d0b35-7d54-4522-a195-553d94724857	GET	undefined	/auth
+20102023	10:02:59	6932dd19-096e-4cbb-b6d0-7240a6537d10	POST	undefined	/register
+20102023	10:03:24	e4dc3039-a514-4862-8785-a06e0b0ec031	POST	undefined	/auth
